@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
 #include "definindo_tad.h" // Entre aspas porque <> é reservado só pra bibliotecas que estão na path do sistema
 
