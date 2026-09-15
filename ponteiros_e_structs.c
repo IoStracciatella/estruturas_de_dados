@@ -15,11 +15,13 @@
 
 //Ao invés de falar "assumir a forma de", falamos "apontar", mas expressa a mesma ideia
 
-//No caso de structs é quase igual, com alguma diferenças: 
-// - não precisa do operador & pra fazer um ponteiro apontar pra um valor struct
-// - Acessamos os campos do tipo struct através do ponteiro usando o operador ->
+//No caso de structs é igual, com uma coisa a mais: Acessamos os campos do tipo struct
+//através do ponteiro usando o operador ->
 
 //Resumindo: Ponteiro é uma variável que consegue "contolar" uma outra variável de mesmo tipo
+
+//DETALHE IMPORTANTE: Quando um ponteiro aponta pra um valor na memória, e não pra uma variável
+//(como quando usamos malloc), não é necessário o operador &
 
 #include <stdio.h>
 
