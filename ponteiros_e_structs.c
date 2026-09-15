@@ -1,4 +1,5 @@
-//Dica: Lembra que um ponteiro é uma forma de manipular um valor.
+//Lembre-se: Um ponteiro é uma forma de manipular um valor.
+
 //Sabendo disso, pense em um ponteiro como uma variável que pode 
 //"assumir a forma de outra" e manipula-la
 
@@ -17,6 +18,8 @@
 //No caso de structs é quase igual, com alguma diferenças: 
 // - não precisa do operador & pra fazer um ponteiro apontar pra um valor struct
 // - Acessamos os campos do tipo struct através do ponteiro usando o operador ->
+
+//Resumindo: Ponteiro é uma variável que consegue "contolar" uma outra variável de mesmo tipo
 
 #include <stdio.h>
 
