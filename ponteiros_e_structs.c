@@ -1,10 +1,10 @@
 //Lembre-se: Um ponteiro é uma forma de manipular um valor.
 
 //Sabendo disso, pense em um ponteiro como uma variável que pode 
-//"assumir a forma de outra" e manipula-la
+//"olhar" pra outra variável e manipula-la. 
 
-//Quando você atribui o ponteiro ao endereço de outra variável, você
-//faz ele "assumir a forma" daquela variável usando &:
+//Quando você atribui o ponteiro ao endereço de outra variável
+//(usando &), você faz ele "olhar" pra aquela variável, e controla-la:
 //int *p, num;
 //p = &num;
 
@@ -13,7 +13,7 @@
 //*p = 24;
 //agora o valor de 'num' é 24
 
-//Ao invés de falar "assumir a forma de", falamos "apontar", mas expressa a mesma ideia
+//Ao invés de falar "olhar", falamos "apontar", mas expressa a mesma ideia: Pra onde o ponteiro aponta (olha) ele controla
 
 //No caso de structs é igual, com uma coisa a mais: Acessamos os campos do tipo struct
 //através do ponteiro usando o operador ->
