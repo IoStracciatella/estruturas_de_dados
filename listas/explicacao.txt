@@ -24,7 +24,5 @@ RESUMO DE COMO IMPLEMENTAR LISTAS ENCADEADAS:
 - Para acessar um elemento de uma lista encadeada, precisamos caminhar até ele. Diferentemente do array, que nos permite acessar diretamente uma posição
   ex: int valores[5] = {1, 2, 3, 4, 5} printf("%d", valores[3]) acessamos diretamente o valor na posição 3 para printar
 
-- EXPLICANDO: Sempre que você alocar um bloco de memória com a função malloc() deve haver um ponteiro para armazenar o endereço daquele bloco (no nosso
-  caso, node). Sempre que memória é alocada com malloc() deve haver algo como *p = malloc() caso contrário, a memória é alocada e o endereço do bloco é
-  perdido para sempre. Você já tem uma noção intuitiva disso, porque quando se cria um vetor dinâmico, fazemos algo como:
+- EXPLICANDO MELHOR SOBRE PONTEIROS: Sempre que você alocar um bloco de memória com a função malloc() deve haver um ponteiro para armazenar o endereço daquele       bloco (no nosso caso, node). Sempre que memória é alocada com malloc() deve haver algo como *p = malloc() caso contrário, a memória é alocada e o endereço do      bloco é perdido para sempre. Você já tem uma noção intuitiva disso, porque quando se cria um vetor dinâmico, fazemos algo como:
   int *vetor = malloc(n * sizeof(int));
