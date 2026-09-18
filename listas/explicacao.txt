@@ -11,4 +11,20 @@ Existem os seguintes tipos de lista encadeada:
   > Lista encadeada dinâmica: Pode ter seu tamanho alterado. Nós podem ser adicionados ou removidos
   > Lista encadeada estática: Não pode ter seu tamanho alterado. É como uma array, só que não contíguo na memória
 - Quanto a ordenação:
-  > Lista encadeada ordenada: 
+  > Lista encadeada ordenada: Possui elementos com algum tipo de ordenação
+  > Lista encadeada desordenada: Não possui nenhum tipo de ordenação
+
+RESUMO DE COMO IMPLEMENTAR LISTAS ENCADEADAS:
+- Uma lista encadeada é composta de vários bloco de memória (nodes) "soltos"
+  Portanto, se criamos um node, precisamos do endereço dele no momento da sua criação. Caso contrário o bloco de memória que continha o node é perdido
+
+- Sempre precisamos de um ponteiro para percorrer uma lista encadeada. Na verdade, para interagir com a lista de qualquer forma que seja, precisamos
+  utilizar ponteiros
+
+- Para acessar um elemento de uma lista encadeada, precisamos caminhar até ele. Diferentemente do array, que nos permite acessar diretamente uma posição
+  ex: int valores[5] = {1, 2, 3, 4, 5} printf("%d", valores[3]) acessamos diretamente o valor na posição 3 para printar
+
+- EXPLICANDO: Sempre que você alocar um bloco de memória com a função malloc() deve haver um ponteiro para armazenar o endereço daquele bloco (no nosso
+  caso, node). Sempre que memória é alocada com malloc() deve haver algo como *p = malloc() caso contrário, a memória é alocada e o endereço do bloco é
+  perdido para sempre. Você já tem uma noção intuitiva disso, porque quando se cria um vetor dinâmico, fazemos algo como:
+  int *vetor = malloc(n * sizeof(int));
