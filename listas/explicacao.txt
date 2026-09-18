@@ -1,0 +1,14 @@
+Uma lista (ou lista ligada) é uma estrutura de dados composta por várias células que estão interligadas através de ponteiros. Ou seja, cada célula
+possui um ponteiro que aponta para o endereço de memória da próxima célula. Desse modo, as células da estrutura não precisam estar em posições
+contíguas da memória. Isso faz com que a estrutura se torne dinâmica, pois há qualquer momento, é possível alocar uma nova célula e mudar os
+ponteiros das células já existentes, de modo que a nova célula seja inserida na estrutura com êxito, na posição desejada pelo programador
+
+Existem os seguintes tipos de lista encadeada:
+- Quanto ao encadeamento
+  > Lista simplesmente encadeada: Possui apenas 1 ligação por node. Fato esse que só permite percorrer a lista em 1 sentido
+  > Lista duplamente encadeada: Possui 2 ligações por node. Essa ligação extra te permite percorrer a lista em 2 sentidos
+- Quanto a dinâmica:
+  > Lista encadeada dinâmica: Pode ter seu tamanho alterado. Nós podem ser adicionados ou removidos
+  > Lista encadeada estática: Não pode ter seu tamanho alterado. É como uma array, só que não contíguo na memória
+- Quanto a ordenação:
+  > Lista encadeada ordenada: 
