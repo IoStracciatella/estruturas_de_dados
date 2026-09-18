@@ -1,4 +1,4 @@
-//Esse código cria uma lista encadeada dinâmica com os elementos 17, 23, 55, 83, 91 nas respectivas posições 1, 2, 3, 4, 5
+//Esse código cria uma lista simplesmente encadeada dinâmica com os elementos 17, 23, 55, 83, 91 nas respectivas posições 1, 2, 3, 4, 5
 //No final, o código printa os elementos da lisat em ordem
 //Essa é a implementação mais simples possível de uma lista encadeada dinâmica
 
