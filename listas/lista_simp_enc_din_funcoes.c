@@ -21,7 +21,7 @@ node *criarLista () {
 }
 
 //Função pra inserir um novo node no início da lista
-node *inserirInicio (node *lista, int dado) {
+void inserirInicio (node *lista, int dado) {
     node *novo = malloc(sizeof(node));
     novo->dado = dado;
     lista->prox = novo; //Ligando o ponteiro head da lista ao novo elemento
