@@ -1,3 +1,9 @@
+//Temos nesse código uma implementação simples de uma lista encadeada dinâmica, acompanhada de uma função
+//para adicionar nodes no final da lista
+
+//Na lista, serão adicionados os elementos 5, 8 e 13 diratamente acesando os nodes que contém esses elementos
+//Também serão adicionados os elementos 23 e 33 utilizando a função addFim
+
 #include <stdio.h>
 #include <stdlib.h>
 
