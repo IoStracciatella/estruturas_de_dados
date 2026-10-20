@@ -1,6 +1,8 @@
 //Essa lista, apesar de ser feita sem TAD, possui um tipo "lista" definido, podendo assim abstrair o conceito de lista
 //e permitir ao usuário criar e interagir com listas de forma encapsulada
 
+//Essa é a forma mais simples possível de criar uma abstração do conceito de lista
+
 #include <stdio.h>
 #include <stdlib.h>
 
