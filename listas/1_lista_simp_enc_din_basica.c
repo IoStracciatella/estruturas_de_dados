@@ -6,7 +6,7 @@
 #include <stdlib.h>
 
 typedef struct node {
-    int dado;
+    int valor;
     struct node *prox;
 } node;
 
@@ -44,6 +44,5 @@ int main () {
         atual = atual->prox; //É assim que nos movemos em uma lista encadeada!
     }
     
-
     return 0;
 }
