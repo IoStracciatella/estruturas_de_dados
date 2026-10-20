@@ -1,6 +1,10 @@
 //Lista duplamente encadeada com 5 nodes, feita da forma mais simples
 //possível: Adicionando os nodes manualmente
 
+//Vantagens da lista duplamente encadeada:
+//Permite ser percorrida tanto do começo pro fim, quanto do fim pro começo
+//Permite sempre saber qual node veio antes do atual
+
 #include <stdio.h>
 #include <stdlib.h>
 
