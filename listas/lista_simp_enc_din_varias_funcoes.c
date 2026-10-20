@@ -1,6 +1,7 @@
 //Neste código criamos uma lista simplesmente encadeada dinâmica, e diversas funções para podermos interagir com ela
-//O objetivo do código é ser quase igual ao código "lista_simp_enc_din_basica.c", poré, com a adição de funções
-//Assim, mantemos a simplicidade e damos uma noção de como usar funções em listas
+//O objetivo do código é ser quase igual ao código "lista_simp_enc_din_basica.c", porém, com a adição de funções
+//Assim, mantemos a simplicidade e damos uma noção de como usar funções em listas, para podermos interagir com elas
+//de forma abstrata
 
 #include <stdio.h>
 #include <stdlib.h>
