@@ -1,3 +1,11 @@
+//Lista encadeada circular feita da forma mais simples possível: Modificando diretamente os nodes
+
+//Esse tipo de lista é quase igual a lista encadeada dinâmica normal, com a diferença que o ponteiro do último
+//node aponta para o primeiro, e que, para percorrermos essa lista precisamos (quase sempre) utilizar um loop
+//do while ao invés de while
+
+//A vantagem desse tipo de lista é poder ficar percorrendo ela em loop, afinal o fim é o começo
+
 #include <stdio.h>
 #include <stdlib.h>
 
