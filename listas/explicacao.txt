@@ -30,3 +30,9 @@ RESUMO DE COMO IMPLEMENTAR LISTAS ENCADEADAS:
 - Para acessar um elemento de uma lista encadeada, precisamos caminhar até ele. Diferentemente do array, que nos permite acessar diretamente uma posição
   ex: int valores[5] = {1, 2, 3, 4, 5} printf("%d", valores[3]). Note que acessamos diretamente o valor na posição 3 para printar. Isso NÃO seria possível
   em um alista encadeada. Teríamos que percorrer todos os elementos até 3 para acessa-lo
+
+DICAS PARA IMPLEMENTAR E CONSEGUIR RACIOCINAR NO CONTEXTO DE LISTAS
+- Se você quiser fazer algo que adiciona nodes e/ou altera a posição dos nodes, eu indico que você desenhe os nodes e suas ligações, pra entender melhor
+o que terá que ser alterado
+- Muitos conceitos de estruturas de dados não fazem sentido se não forem implementados de forma abstraída. O mais simples deles sendo pilhas e filas. Não
+tem como implementar essas estruturas sem que haja abstração
