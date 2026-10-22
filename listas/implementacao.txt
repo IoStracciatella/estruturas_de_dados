@@ -1,0 +1,9 @@
+DICAS PARA IMPLEMENTAR E ENTENDER LISTAS
+- Se você quiser fazer algo que adiciona nodes e/ou altera a posição dos nodes, eu indico que você desenhe os nodes e suas ligações, pra entender melhor
+o que terá que ser alterado
+- Muitos conceitos de estruturas de dados não fazem sentido se não forem implementados de forma abstraída. O mais simples deles sendo pilhas e filas. Não
+tem como implementar essas estruturas sem que haja abstração
+
+while (atual != NULL) percorre a lista toda e faz o ponteiro atual acabar apontando pra NULL
+enquanto que
+while (atual->prox != NULL) percorre a lista toda e faz o ponteiro atual acabar apotando para o último node da lista 
