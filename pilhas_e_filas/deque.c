@@ -33,6 +33,31 @@ void push_back (int valor, node **head) {
     *head = novo;
 }
 
+//Remove um elemento do final do deque
+void pop_front (node *head) {
+    node *atual1 = head;
+    node *atual2 = head;
+
+    while (atual1->prox != NULL) {
+        atual1 = atual1->prox;
+    }
+
+    while (atual2->prox->prox != NULL) {
+        atual2 = atual2->prox;
+    }
+
+    free(atual1);
+    atual2->prox = NULL;
+}
+
+//Remove um elemento do início do deque
+void pop_back (node **head) {
+    node *atual = (*head)->prox;
+    free(*head);
+    *head = atual;
+}
+
+//Imprime todos os elementos do deque
 void imprimeDeque (node *head) {
     node *atual = head;
     
@@ -42,11 +67,14 @@ void imprimeDeque (node *head) {
     }
 }
 
+//Cria um node sentinela pro deque
 node *criaDeque () {
     node *novo = malloc(sizeof(node));
     novo->valor = 0;
     novo->prox = NULL;
     novo->ant = NULL;
+
+    return novo;
 }
 
 typedef node *deque;
@@ -63,6 +91,11 @@ int main () {
 
     push_back(30, &caio);
     push_back(35, &caio);
+
+    pop_back(&caio);
+    pop_front(caio);
+
+    imprimeDeque(caio);
 
     imprimeDeque(caio);
 }
