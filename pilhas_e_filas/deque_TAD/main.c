@@ -1,24 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "deque.h"
 
 int main () {
-    deque caio;
-    caio = criaDeque();
+    //Sempre que é criado um deque sem sentinela, deve-se inicializa-lo em NULL
+    deque novoDeque = NULL;
 
-    push_front(3, caio);
-    push_front(7, caio);
-    push_front(11, caio);
+    push_front(3, &novoDeque);
+    push_front(7, &novoDeque);
+    push_front(11, &novoDeque);
 
-    imprimeDeque(caio);
+    imprimeDeque(novoDeque);
 
-    push_back(30, &caio);
-    push_back(35, &caio);
+    push_back(30, &novoDeque);
+    push_back(35, &novoDeque);
 
-    pop_back(&caio);
-    pop_front(caio);
+    pop_back(&novoDeque);
+    pop_front(&novoDeque);
 
-    imprimeDeque(caio);
+    imprimeDeque(novoDeque);
 
-    imprimeDeque(caio);
+    imprimeDeque(novoDeque);
 }
