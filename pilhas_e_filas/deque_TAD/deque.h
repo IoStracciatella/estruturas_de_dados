@@ -9,9 +9,9 @@ typedef struct node {
 
 typedef node *deque;
 
-void push_front (int valor, node *head);
+void push_front (int valor, node **head);
 void push_back (int valor, node **head);
-void pop_front (node *head);
+void pop_front (node **head);
 void pop_back (node **head);
 void imprimeDeque (node *head);
 node *criaDeque ();
