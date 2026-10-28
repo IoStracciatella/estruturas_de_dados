@@ -1,0 +1,6 @@
+DICAS PARA IMPLEMENTAR TADs
+
+1. Primeiro crie tudo em um único arquivo main.c, depois separe em um arquivo .c .h e main.c
+  Isso ajuda a entender o que você tá fazendo melhor. Depois de adquirir experiência você pode já fazer o .c .h e main.c separados
+
+2. Lembre-se que o .h deve ser usado tanto no .c do TAD quanto no main.c
